@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Technologies Assignment</title>
+  </head>
+  <style>
+    h2 {
+      color: blue;
+      text-align: center;
+      font-family: cursive;
+      text-decoration: underline;
+    }
+    .image-2 {
+      height: 479px;
+      width: 855px;
+    }
+    .align{
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        gap: 10px;
+        
+    }
+    table, th, td {
+  border:1px solid black;
+
+}
+  body{
+
+  background:rgb(224, 138, 250);
+      }
+               
+   
+
+  </style>
+
+    <h2>Welcome to the webpage!!</h2>
+    <h1>Registration form</h1>
+    <form action="post">
+      <div>
+        <label for="username">enter your username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter name"
+        />
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <div><label for="comment">enter the permanent address:</label></div>
+        <textarea id="comment" name="comment" > </textarea>
+      </div>
+      <div>
+        <select name="fruits">
+            <option value="Mac Book">Mac Book</option>
+            <option value="Dell">Dell</option>
+            <option value="Asus Vivobook">Asus Vivobook</option>
+      </select>
+      </div>
+    </form>
+    <hr>
+   <div class ="align">
+    <img class="image-1"
+      src="https://happycredit.in/cloudinary_opt/blog/best-laptop-in-india-e18oj.webp"
+      alt="laptop picture"
+      
+      />
+    <img
+      class="image-2"
+      src="https://assets-prd.ignimgs.com/2023/05/02/the-best-macbook-alternatives-for-2023-2-1683070580762.jpg"
+      alt="laptop pic-2"
+      
+      
+    />
+    </div>
+<hr>
+    <b><h3>Laptop companies:</h3></b>
+    <ol>
+      <li>MAC BOOK</li>
+      <li>DELL</li>
+      <li>HP</li>
+      <li>ASUS VIVOBOOK</li>
+      <li>LENOVO THINK PAD</li>
+      <li>ACER</li>
+    </ol>
+    <b><h3>Few considerations about Laptops while buying:</h3></b>
+    <ul>
+      <li>Battery Life</li>
+      <li>RAM</li>
+      <li>Storage</li>
+      <li>Processor</li>
+      <li>Display</li>
+    </ul>
+    <b><h3>Features of Laptops:</h3></b>
+    <ul>
+      <li>Portability</li>
+      <li>Operating system</li>
+      <li>Connectivity</li>
+      <li>Keyboard and trackpad</li>
+      <li>Intel UHD Graphics</li>
+    </ul>
+    <hr>
+   <h2> Laptop specifications with prices </h2>
+    <table>
+        <tr>
+            <th> laptop company</th>
+            <th>Laptop Specifications</th>          
+            <th>Laptop Price</th>     
+            <th> Picture </th>     
+        </tr>
+        <tr>
+            <th>Mac Book Air laptop (m1) </th>
+            <td>Screen Size	:13.6
+                Colour	:Silver
+                Hard Disk Size: 256 GB
+                CPU Model:Others
+                RAM Memory Installed Size: 8 GB
+                Operating System: Mac OS
+                Graphics Card Description:Integrated</td>
+            
+            <td>₹1,14,900</td>
+            <td> <img src="https://m.media-amazon.com/images/I/71eXNIDUGjL._SX679_.jpg" alt="Mac book" style: height="200px" width="200px"></td>
+        </tr>
+        <tr>
+            <th>Dell</th>
+            <td>Model Name	Vostro 3510
+                Screen Size	15.6 Inches
+                Colour	Grey
+                Hard Disk Size	512 GB
+                CPU Model	Core i5
+                RAM Memory Installed Size	8 GB
+                Operating System	Windows 11 Home
+                Graphics Card Description	Integrated</td>
+            <td>₹48,990</td>
+            <td><img src="https://m.media-amazon.com/images/I/51QAhmT0VvL._SX679_.jpg" alt="DELL" style: height ="200px" width="200px"></td>
+        </tr>
+        <tr>
+            <th>Asus Vivobook</th>
+            <td>Model Name	Vivobook 15
+                Screen Size	39.62 Centimetres
+                Colour	Quiet Blue
+                Hard Disk Size	512 GB
+                CPU Model	Core i3
+                RAM Memory Installed Size	8 GB
+                Operating System	Windows 11 Home
+                Graphics Card Description	Integrated</td>
+            <td>₹39,990</td>
+            <td><img src="https://m.media-amazon.com/images/I/71c0GSxtEEL._SX679_.jpg" alt="ASUS VIVOBOOK" style: height ="200px" width="200px"></td>
+            </tr>
+    </table>
+    <hr>
+    <b>Click here to Open Amazon website for Purchasing Laptops: </b>
+    <br>
+    <div class="one">
+     <center><button type ="button"><a target="_blank" href="https://www.amazon.com"> Click Me!!</a></button></center>
+     </div>
+     <hr>
+    
+    <center> <button type="button">Submit</button></center> 
+    </div>
+     
+  </body>
+</html>
